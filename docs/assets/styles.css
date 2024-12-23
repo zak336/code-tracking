@@ -37,7 +37,7 @@ a {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: bold;
     color: #FFAD00;
 }
@@ -60,6 +60,10 @@ a {
 
 .nav-links a:hover {
     color: #FFAD00;
+}
+
+.sign-in{
+    font-size: 1.3rem;
 }
 
 .sign-in a {
