@@ -127,3 +127,136 @@ a {
     background-color: #FFF;
     color: #05164D;
 }
+
+/* Footer Container */
+.footer {
+    background-color: #05164D;
+    color: #FFF;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    border-top: 4px solid #FFAD00;
+}
+
+/* Footer Sections */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    color: #FFAD00;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom{
+    border-top: 2px solid #FFAD00;
+}
+
+/* Newsletter Form */
+.newsletter-form {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.newsletter-form input {
+    flex: 1; /* Ensures the input takes available space */
+    padding: 10px;
+    border: 1px solid #FFAD00;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    min-width: 200px; /* Prevents input from getting too small */
+}
+
+.newsletter-form button {
+    background-color: #FFAD00;
+    border: none;
+    color: #05164D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex-shrink: 0; /* Prevents button from shrinking */
+    min-width: 120px; /* Ensures a minimum size for the button */
+    text-align: center;
+}
+
+.newsletter-form button:hover {
+    background-color: #e69c00;
+}
+
+/* Ensure proper alignment on smaller screens */
+@media (max-width: 600px) {
+    .newsletter-form input,
+    .newsletter-form button {
+        flex: 1; /* Allow both to adjust equally */
+        max-width: 100%; /* Prevent overflow */
+    }
+}
+                           
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1); /* White icon effect */
+}
+
+.social-icons a img:hover {
+    filter: brightness(0.8);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #DDD;
+}
+
+.footer-bottom a {
+    color: #FFAD00;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
