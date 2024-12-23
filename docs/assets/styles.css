@@ -26,7 +26,7 @@ a {
 }
 
 .hero-content-wrapper{
-    padding-top: 2rem;
+    padding-top: 10rem;
 }
 
 /* Navigation Bar */
@@ -53,7 +53,7 @@ a {
 }
 
 .nav-links a {
-    font-size: 0.9rem;
+    font-size: 1.01rem;
     color: #FFF;
     transition: color 0.3s ease;
 }
