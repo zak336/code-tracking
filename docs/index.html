@@ -4,11 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HR - TrueBrain's</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>TrueBrain's HR</title>
 </head>
 <body>
-
-    <h1>Ahhh! here wo Go again</h1>
-    
+    <header class="hero">
+        <div class="nav-bar">
+            <div class="logo" href = "index.html">HR</div>
+            <ul class="nav-links">
+                <li><a href="#">Find Jobs</a></li>
+                <li><a href="#">Hire Talent</a></li>
+                <li><a href="#">Explore Solutions</a></li>
+                <li><a href="#">Insights</a></li>
+            </ul>
+            <div class="sign-in"><a href="pages/contact/contact.html">Contact Us</a></div>
+        </div>
+        <div class="hero-content-wrapper">
+            <div class="hero-content">
+                <p class="highlight">Your Partner in Finding Exceptional Talent</p>
+                <p class="subtext">
+                    Find skilled candidates, in-demand jobs, and the solutions you need to help you do your best work yet.
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn job-seekers">For Job Seekers</button>
+                    <button class="btn businesses">For Businesses</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="search-box">
+        <input type="text" id="job-title" placeholder="Job Title">
+        <input type="text" id="location" placeholder="Location">
+        <button id="search-btn">Search</button>
+    </div>
+    <section id="results"></section>
+    <script src="assets/script.js"></script>
 </body>
 </html>
