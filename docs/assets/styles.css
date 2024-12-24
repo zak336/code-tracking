@@ -762,6 +762,7 @@ SEARCH BAR WRAPPER */
     .enhanced-search-bar-container {
         flex-direction: column;
         gap: 0.5rem;
+        border-radius: 1rem;
     }
 
     .enhanced-search-button {
@@ -771,12 +772,9 @@ SEARCH BAR WRAPPER */
 }
 
 
-
-/* RESPONSIVENESS FOR SMALLER SCREENS */
 @media (max-width: 1024px) {
     .enhanced-search-bar-container {
         max-width: 800px;
-        /* Adjust width for medium-sized devices */
         padding: 0.8rem;
     }
 }
@@ -791,15 +789,12 @@ SEARCH BAR WRAPPER */
     .job-input,
     .location-input {
         width: 100%;
-        /* Make inputs span full width */
         font-size: 0.9rem;
-        /* Adjust font size for smaller screens */
         padding: 0.7rem;
     }
 
     .enhanced-search-button {
         width: 100%;
-        /* Button spans full width */
         padding: 0.7rem;
         border-radius: 8px;
     }
@@ -808,24 +803,20 @@ SEARCH BAR WRAPPER */
 @media (max-width: 480px) {
     .enhanced-search-bar-wrapper {
         padding: 1rem;
-        /* Reduce padding for smaller devices */
     }
 
     .enhanced-search-bar-container {
         max-width: 95%;
-        /* Fit within smaller screens */
     }
 
     .job-input,
     .location-input {
         font-size: 0.85rem;
-        /* Reduce text size for compactness */
         padding: 0.6rem;
     }
 
     .enhanced-search-button {
         font-size: 0.9rem;
-        /* Adjust button font size */
         padding: 0.6rem 1rem;
     }
 }
