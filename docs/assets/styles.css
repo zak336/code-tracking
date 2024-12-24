@@ -1214,6 +1214,7 @@ body {
 
 .footer-bottom {
     border-top: 2px solid #FFAD00;
+    margin-top: 3rem;
 }
 
 /* Newsletter Form */
@@ -1279,7 +1280,6 @@ body {
     width: 30px;
     height: 30px;
     filter: brightness(0) invert(1);
-    /* White icon effect */
 }
 
 .social-icons a img:hover {
